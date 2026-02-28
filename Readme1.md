@@ -76,38 +76,7 @@ Instead of returning links or summaries, the system delivers **structured intell
 
 User → Frontend → FastAPI Backend → AI Agents → Database → Response
 
-### Architecture Description
-The system follows an **Agent-Oriented Architecture**:
-
-- Planner Agent → Creates research plan  
-- Research Agent → Collects sources  
-- Evaluator Agent → Scores credibility  
-- Synthesis Agent → Generates insights  
-- Report Agent → Creates structured report & PDF  
-- Follow‑Up Agent → Enables contextual chat  
-
-### Architecture Diagram
-*(Add system architecture diagram image here)*
-
----
-
-## 5. Database Design
-
-### ER Diagram
-*(Add ER diagram image here)*
-
-### ER Diagram Description
-The database stores:
-- Research Sessions
-- Source Metadata
-- Credibility Scores
-- Synthesized Insights
-- Generated Reports
-- Follow‑up Chat History
-
----
-
-## 6. Dataset Selected
+## 5. Dataset Selected
 
 ### Dataset Name
 Dynamic Web Intelligence Sources
@@ -133,7 +102,7 @@ Real-world research requires live multi-source intelligence rather than static d
 
 ---
 
-## 7. Model Selected
+## 6. Model Selected
 
 ### Model Name
 Large Language Model (LLM) Agent System
@@ -154,7 +123,7 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 8. Technology Stack
+## 7. Technology Stack
 
 ### Frontend
 - Next.js
@@ -180,22 +149,7 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 9. API Documentation & Testing
-
-### API Endpoints List
-
-- **POST /research/start** — Start research  
-- **GET /research/{id}/status** — Check progress  
-- **GET /research/{id}/report** — Fetch report  
-- **POST /research/{id}/followup** — Follow-up question  
-- **GET /research/{id}/download-pdf** — Download PDF report  
-
-### API Testing Screenshots
-*(Add Postman / Thunder Client screenshots here)*
-
----
-
-## 10. Module-wise Development & Deliverables
+## 8. Module-wise Development & Deliverables
 
 ### Checkpoint 1: Research & Planning
 **Deliverables**
@@ -255,7 +209,7 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 11. End-to-End Workflow
+## 9. End-to-End Workflow
 
 1. User submits research query  
 2. Planner Agent creates research plan  
@@ -267,15 +221,15 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 12. Demo & Video
+## 10. Demo & Video
 
-- Live Demo Link: *(Add link)*  
-- Demo Video Link: *(Add link)*  
-- GitHub Repository: *(Add link)*  
+- Live Demo Link: *(To Be Added)*  
+- Demo Video Link: *(To Be Added)*  
+- GitHub Repository: https://github.com/DevanshSainiji/VEXOR
 
 ---
 
-## 13. Hackathon Deliverables Summary
+## 11. Hackathon Deliverables Summary
 
 - Autonomous Research Intelligence Platform
 - Agent-Based AI Architecture
@@ -286,18 +240,17 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 14. Team Roles & Responsibilities
+## 12. Team Roles & Responsibilities
 
 | Member Name | Role | Responsibilities |
 |-------------|------|-----------------|
-| Devansh Saini | Backend Lead | FastAPI, Architecture, APIs |
-| Team Member | Frontend Lead | UI & Dashboard |
-| Team Member | AI Engineer | Agent Design |
-| Team Member | Integration | Testing & Deployment |
+| Devansh Saini | AI Engineer | Agent Design |
+| Deepak Pathik | Backend Lead | FastAPI, Architecture, APIs |
+| Ved Vadnare | Frontend Lead | UI & Dashboard |
 
 ---
 
-## 15. Future Scope & Scalability
+## 13. Future Scope & Scalability
 
 ### Short-Term
 - Real-time data integrations
@@ -312,7 +265,7 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 16. Known Limitations
+## 14. Known Limitations
 
 - Demo uses mock integrations
 - External data dependency
@@ -320,7 +273,7 @@ LLMs enable reasoning across multiple documents, contextual understanding, and s
 
 ---
 
-## 17. Impact
+## 15. Impact
 
 - Reduces research time from days → minutes
 - Improves decision accuracy
